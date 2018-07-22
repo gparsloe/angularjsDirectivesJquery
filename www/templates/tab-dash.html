@@ -1,17 +1,29 @@
 <ion-view view-title="Dashboard">
   <ion-content class="padding">
-    <h2>Welcome to Ionic</h2>
-    <p>
-    This is the Ionic starter for tabs-based apps. For other starters and ready-made templates, check out the <a href="http://market.ionic.io/starters" target="_blank">Ionic Market</a>.
+      
+      
+      <p></p>
+    <h2>Testing jsfiddle - jquery ui + angularjs tooltip demo</h2>
+      <p>An approach to use jQuery Plugins with AngularJS: 
+ <a href="https://amitgharat.wordpress.com/2013/02/03/an-approach-to-use-jquery-plugins-with-angularjs/" target="_blank">demo tut</a>.
     </p>
-    <p>
-      To edit the content of each tab, edit the corresponding template file in <code>www/templates/</code>. This template is <code>www/templates/tab-dash.html</code>
-    </p>
-    <p>
-    If you need help with your app, join the Ionic Community on the <a href="http://forum.ionicframework.com" target="_blank">Ionic Forum</a>. Make sure to <a href="http://twitter.com/ionicframework" target="_blank">follow us</a> on Twitter to get important updates and announcements for Ionic developers.
-    </p>
-    <p>
-      <b>Psst!</b> - Try <a href="http://view.ionic.io/">Ionic View</a> to easily share and test your app with clients and co-workers.
-    </p>
+ <div ng-app="Toolbar">
+    <div class="btn-toolbar" toolbar-tip="{content: '#toolbar-options', position: 'top'}" id="format-toolbar1">
+        <i class="fa fa-cog"></i>
+    </div>
+    <div class="btn-toolbar" toolbar-tip="{content: '#toolbar-options', position: 'right', style: 'primary'}" id="format-toolbar2">
+        <i class="fa fa-cog"></i>
+    </div>
+    <div class="btn-toolbar" toolbar-tip="{content: '#toolbar-options', position: 'bottom', style: 'primary', animation: 'flip'}" id="format-toolbar3">
+        <i class="fa fa-cog"></i>
+    </div>
+
+    <div id="toolbar-options">
+       <a href="#"><i class="fa fa-plane"></i></a>
+       <a href="#"><i class="fa fa-car"></i></a>
+       <a href="#"><i class="fa fa-bicycle"></i></a>
+    </div>
+</div>
+      <p> end of stuff pasted from fiddle</p>
   </ion-content>
 </ion-view>

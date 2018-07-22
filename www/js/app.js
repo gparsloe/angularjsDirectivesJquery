@@ -7,6 +7,16 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
+.directive('toolbarTip', function() {
+    return {
+        restrict: 'A',
+        link: function(scope, element, attrs) {
+            $(element).toolbar(scope.$eval(attrs.toolbarTip));
+//             angular.element.toolbar(scope.$eval(attrs.toolbarTip));
+        }
+    };
+})
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard

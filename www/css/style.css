@@ -1,1 +1,9 @@
 /* Empty. Add your own CSS if you like */
+#format-toolbar1, 
+#format-toolbar2, 
+#format-toolbar3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#toolbar-options { display: none; }
